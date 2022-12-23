@@ -1,0 +1,83 @@
+
+body{
+    position: relative;
+    left: 15%;
+    background-image: url("https://wallpaperaccess.com/full/3028618.jpg");
+    width: 1000px;
+    height: 1000px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+header{
+    background-color: beige(225, 10, 225, 0.404);
+    width: 1000px;
+    height:100px;
+    border: 1px solid rgb(0, 0, 0);
+}
+header h1{
+    position: relative;
+    left: 400px;
+    top: 0PX;
+    color: grey;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.imageOne{
+    margin: 5px;
+    margin-left:35px;
+    float: left;
+}
+
+/*--------------------------------------------*/
+nav{
+    background-color: grey;
+    width: 1000px;
+    height:40px;
+    border: 1px solid black;
+}
+nav div a{
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: beige;
+    color: red;
+    padding:0px 8px;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+}
+/*--------------------------------------------*/
+main{
+    position: relative;
+    left: 0px;
+    background-color: beige(225, 10, 225, 0.404);
+    width:100%;
+    height: 450px;
+    border: 3px solid beige;
+}
+.mainContainer{
+    position: relative;
+    right: -20px;
+    
+}
+.imageTwo{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+.backgroundContent{
+    position: relative;
+    bottom: 500px;
+    left: 200px;
+    margin: 30px 250px;
+    
+}
+/*--------------------------------------------*/
+footer p{
+    text-align: center;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    padding:0px;
+}
